@@ -1,1 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>La Cocina</title>
+  <meta name = "viewport" content = "width=device-width, initial-scale = 1.0" />
+  <link rel = "stylesheet" href = "styles.css">
+</head>
 
+<!-----------------------------------------------------------------------------
+  HERO
+------------------------------------------------------------------------------>
+  <header>
+    <h1>La Cocina de <span>Ottis</span></h1>
+    <p>Welcome to my digital kitchen where ideas are prepped, code is cooked, projects are baked, and the temperature remains high</p>
+    <a href="https://github.com/o9diaz00" target="_blank">🔗 Visit GitHub</a>
+  </header>
+<!-----------------------------------------------------------------------------
+  ABOUT
+------------------------------------------------------------------------------>
+  <section>
+    <h2>Sobre el Chef (About Me)</h2>
+    <div class = "card">
+      <p>Hola todos!  I am Ottis, SRE/Devops/Cloud Engineer by day, normal citizen trying to recuperate from work by night.</p>
+      <p>When I do have time to myself, I like to learn (or try to) new languages (case in point the Spanish here, but there is also Japanese too), do puzzles/escape rooms, play sports and video games.  If you've come across the moniker "ChefBoyRD" dominating any of your online games, that was probably me! (and now all of a sudden this website's theme is starting to all come together now)</p>
+    </div>
+  </section>
+<!-----------------------------------------------------------------------------
+  PROJECTS
+------------------------------------------------------------------------------>
+  <section>
+    <h2>Projects 🍽 (Recetas)</h2>
+    <div class = "grid">
+      <div class = "card">
+        <h3><a href = "https://github.com/o9diaz00/Later-Stuff/tree/main/Terraform/Linode/Object%20Storage">🧱 Linode Object Storage Terraform</a></h3>
+        <p>This repository holds the skeleton of a terraform migration + Jenkins CI/CD pipeline that I single-handedly engineer whilst at Akamai Technologies.  This repo of course omits any proprietary information (including the resources created at the company)</p><br />
+        <p>Alternatively, there is my example <a href = "https://github.com/o9diaz00/Later-Stuff/tree/main/Terraform/GCP">GCP terraform repository</a> I built that uses the same blueprints</p>
+        <span class = "tag">Infrastructure as Code</span>
+        <span class = "tag">Terraform</span>
+        <span class = "tag">AWS/Linode</span>
+        <span class = "tag">CI/CD</span>
+        <span class = "tag">Jenkins</span>
+      </div>
+    <div class = "card">
+        <h3><a href = "https://github.com/o9diaz00/FoodBot_K8s">🥐 FoodBot MiniKube</a></h3>
+        <p>This repository holds a Discord Bot that I built (just a fun little food randomizer) that was migrated to Helm Charts and placed onto MiniKube.</p><br />
+        <p>Additionally, it has a CI/CD pipeline added via GitHub Actions to automatically deploy onto the minikube cluster</p>
+        <span class = "tag">Kubernetes</span>
+        <span class = "tag">Javascript</span>
+        <span class = "tag">Helm</span>
+        <span class = "tag">CI/CD</span>
+        <span class = "tag">GitHub Actions</span>
+      </div>
+    </div>
+    <div class = "card">
+        <h3><a href = "https://github.com/o9diaz00/VulnerabilityAutomation">⚙️ Vulnerability Automation</a></h3>
+        <p>This repository holds a containerized automation (docker) I built to solve an issue we were witnessing at Disney</p>
+        <span class = "tag">Docker</span>
+        <span class = "tag">SNOW Api</span>
+        <span class = "tag">MySQL</span>
+        <span class = "tag">BASH</span>
+      </div>
+    </div>
+  </section>
+<!-----------------------------------------------------------------------------
+  AUTOMATIONS
+------------------------------------------------------------------------------>
+  <section>
+    <h2>🌱 Scripts/Automations (Ingredientes)</h2>
+    <div class = "grid">
+      <div class = "card">
+        <h3><a href = "https://github.com/o9diaz00/Later-Stuff/blob/main/Python/BucketHandling/deleteBucketObjects.py">📦 AWS/Linode Object Storage Bucket Deletion</a></h3>
+        <p>This is an alternative solution to deleting bucket objects when Lifecycle policies fail.  Imagine billions of specific objects, needing to be deleted; time considerations, api calls, costs, etc.</p>
+        <span class = "tag">Python</span>
+        <span class = "tag">boto3</span>
+        <span class = "tag">AWS/Linode</span>
+      </div>
+      <div class = "card">
+        <h3><a href = "https://github.com/o9diaz00/Later-Stuff/tree/main/GoLang/bucket-check">📦 AWS/Linode Object Storage Bucket Handler</a></h3>
+        <p>This was a CLI creation tool (via cobra-cli) that was going to be a manager where you could perform options such as:<br />
+          Look at bucket stats (size, # of objects, last uploaded file), delete bucket objects, set retention periods, etc.</p>
+        <span class = "tag">Golang</span>
+        <span class = "tag">AWS/Linode</span>
+      </div>
+  </section>
+<body>
